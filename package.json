@@ -1,0 +1,23 @@
+{
+  "name": "java-script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doudement-max/estudos-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Doudement-max/estudos-js/issues"
+  },
+  "homepage": "https://github.com/Doudement-max/estudos-js#readme",
+  "description": "",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
