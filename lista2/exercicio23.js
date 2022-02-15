@@ -48,4 +48,4 @@ if(numeroDeCaracteristicas > 1 && numeroDeCaracteristicas <= 12){
     console.log('o numero de caracteristicas grandes vai ter um valor adicional:',auxCaracteristicas);
 }  
 console.log('o Orçamento ficou:',numeroDoOrcamento); 
-console.log('nome:',nomeDoCliente);
+console.log('nome:',nomeDoCliente)
