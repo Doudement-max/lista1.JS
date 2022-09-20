@@ -11,5 +11,5 @@ if(pesoDaEncomenda <= 250 || pesoDaEncomenda === 500 ){
 }else if(pesoDaEncomenda >= 10000){ 
     console.log('são',calculoParaQuilos,'Quilos valor: 5,00','será acrecentado 3,80 quilos pelo peso que uçtrapassar 10 quilos');
 }else{ 
-    console.log('quilos ou gramas incorretos.'); 
+    console.log('quilos ou gramas incorretos.');
 }
