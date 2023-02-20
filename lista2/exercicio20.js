@@ -1,4 +1,7 @@
-//valor do comprimento de um triangulo  
+/*valor do comprimento de um triangulo triângulo, classifique-o em equilátero, isósceles ou escaleno. Lembre, um
+triângulo é equilátero quando o comprimento de todos os seus lados for igual, é
+isósceles quando apenas um dos lados tiver comprimento diferente e é escaleno
+quando todos os lados tiverem comprimentos diferentes dos demais lados.*/
 var readlineSync = require('readline-sync');  
  let ladoDireito = parseFloat(readlineSync.question('lado direito:'));
  let ladoEsquerdo = parseFloat(readlineSync.question('lado esquerdo:')); 

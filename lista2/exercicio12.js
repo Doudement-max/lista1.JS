@@ -1,4 +1,14 @@
-//Um certo petshop 
+/*Um certo petshop 
+De acordo com a
+tabela de preços desse estabelecimento, a taxa semanal para hospedagem é de R$
+50.00 para cães com menos de 8 kg, R$ 70.00 para cães que pesem entre 8 e 15
+kg inclusive, R$ 100.00 para cães entre 15 e 40 kg e R$ 125.00 para cães com
+mais de 40 kg. Construa um algoritmo que leia o RG do proprietário de um cão,
+bem como o nome, raça, idade e peso desse cão e, de posse desses dados, exiba
+
+um orçamento contendo todos os dados de entrada e o custo para hospedar o
+animal por uma semana.*/ 
+
 var readlineSync = require('readline-sync'); 
  let registroDoProprietario =Number (readlineSync.question('RG do proprietario:')); 
  let nomeERaca = readlineSync.question('Nome e Raça do cão:'); 

@@ -1,4 +1,11 @@
-//quantidade de segundos fornecida com minutos,horas e dias 
+/*quantidade de segundos fornecida com minutos,horas e dias  
+• Se a quantidade de segundos for maior ou igual a 60, o programa deverá
+exibir o número de minutos equivalente;
+• Se a quantidade de segundos for maior ou igual a 3.600, o programa deverá
+exibir o número de horas equivalente;
+• Se a quantidade de segundos for maior ou igual a 86.400, será exibir o
+número de dias equivalente.*/ 
+
 var readlineSync = require('readline-sync');
  let quantidadeDeSegundosFornecido = parseFloat(readlineSync.question('segundos fornecidos:'));  
 if(quantidadeDeSegundosFornecido <= 60){ 

@@ -1,4 +1,7 @@
-//Considere as variáveis abaixo, inicializadas como segue: 
+/*Considere as variáveis abaixo, inicializadas como segue: 
+numero1 = 300 numero2 = 100 numero3 = 5
+string1 = "Rinoceronte" string2 = "Zebra" string3 = "bug”*/ 
+ 
 var readlineSync = require('readline-sync'); 
  let numero1 = 300; 
  let numero2 = 100; 

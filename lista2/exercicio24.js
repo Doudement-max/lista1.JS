@@ -1,4 +1,13 @@
-//Uma loja deseja recompensar os seus empregados 
+/*Uma loja deseja recompensar os seus empregados Crie um algoritmo que leia o
+número de vendas de um empregado e calcule o seu bônus, conforme a seguir:
+
+
+a. Se o número de vendas for menor que 30, o bônus é de R$ 250,00;
+b. Se o número de vendas for maior que 31 e menor que 80, o bônus é de R$
+500,00;
+c. Se o número de vendas for maior que 80 e menor que 200, o bônus é de
+R$ 1.000,00;
+d. Se o número de vendas for 200 ou maior, o bônus é de R$ 2.000,00.*/
 var readlineSync = require('readline-sync'); 
 let numeroDeVendas = parseFloat(readlineSync.question('numero de vendas:')); 
 

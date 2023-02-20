@@ -1,4 +1,6 @@
-//a área de um retângulo é o comprimento de sua base 
+/*a área de um retângulo é o comprimento de sua base base multiplicada
+pela sua altura, construa um algoritmo que leia a base e a altura de dois retângulos
+e informe ao usuário qual deles tem a área maior ou se ambas as áreas são iguais.*/
 var readlineSync = require('readline-sync'); 
  let baseDoPrimeiroRetangulo = parseFloat(readlineSync.question('comprimento da 1° base:')); 
  let alturaDoPrimeiroRetangulo = parseFloat(readlineSync.question('comprimento da 1° altura:')); 

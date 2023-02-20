@@ -1,4 +1,13 @@
-//Uma loja de jogos 
+/*Uma loja de jogos vende cada jogo por R$ 150.00, mas concede descontos
+conforme a quantidade comprada, 
+
+Quantidade de jogos comprados Desconto
+10–19 20%
+20–49 30%
+50 a 99 40%
+100 ou mais 50% 
+
+*/
 var readlineSync = require('readline-sync'); 
 var numeroDeJogosComprados = parseFloat(readlineSync.question('Quantidade de jogos comprados:')); 
  let valorDosJogos = numeroDeJogosComprados*150; 

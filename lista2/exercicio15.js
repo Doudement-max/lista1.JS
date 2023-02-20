@@ -1,4 +1,14 @@
-//a temperatura 
+/*a temperatura: imprima o
+resultado de acordo com a tabela abaixo.
+
+Temperatura Resultado
+
+até 15o Muito frio
+de 16o a 23o Frio
+de 23o a 26o Agradável
+de 26o a 30o Quente
+acima de 31o Muito quente*/ 
+
 var readlineSync = require('readline-sync'); 
 var temperatura = parseFloat(readlineSync.question('qual a temperatura:')); 
 if(temperatura >= 1 && temperatura <= 15 ){ 

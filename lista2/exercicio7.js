@@ -1,4 +1,14 @@
-//Uma certa operadora de telefonia móvel 
+/*Uma certa operadora de telefonia móvel 
+a. As primeiras 60 mensagens estão incluídas no plano básico;
+b. Se o usuário mandar mais de 60 mensagens, cada mensagem adicional
+custará R$ 0.05, até o limite de 180 mensagens;
+c. Acima de 180 mensagens, o valor de cada uma delas passa a R$ 0,10;
+d. A soma dos impostos estaduais e federais amonta a 12% do valor de cada
+fatura.
+Com base nessas informações, crie um algoritmo para ler o número total de
+mensagens enviadas por um usuário. Ao final, calcule o valor da conta e mostre
+todos os dados, incluindo o valor da conta com e sem impostos.*/ 
+ 
 var readlineSync = require('readline-sync'); 
  let numeroDeOperadora = parseFloat(readlineSync.question('numero total de mensagens enviadas:'));  
  let valorPorSMS = 5.00; 

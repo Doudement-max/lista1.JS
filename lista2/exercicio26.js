@@ -1,5 +1,7 @@
-//dia seguinte: 
-var readlineSync = require ('readline-sync'); 
+/*dia seguinte: e calcule a
+data do próximo dia. Lembre-se que em anos bissextos o mês de fevereiro tem 29
+dias. Lembre-se que um ano é bissexto quando for divisível por 4.
+var readlineSync = require ('readline-sync');*/ 
 const dia = parseFloat(readlineSync.question('dia:')); 
 const mes = parseFloat(readlineSync.question('mes:')); 
 const ano = parseFloat(readlineSync.question('ano:'));   

@@ -1,4 +1,5 @@
-//Escreva um algoritmo que leia três números 
+/*Escreva um algoritmo que leia três números e e mostre se
+a soma de dois deles resulta no terceiro.*/
 var readlineSync = require('readline-sync'); 
  let numeroUm = parseFloat(readlineSync.question('primeiro numero:')); 
  let numeroDois = parseFloat(readlineSync.question('segundo numero:')); 
